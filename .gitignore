@@ -1,0 +1,13 @@
+# === 编译产物（Windows） ===
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+
+# === 编译产物（Linux/macOS） ===
+a.out
+
+# === 其他 ===
+*.ilk
+*.idb
