@@ -36,7 +36,8 @@ inline void solve(){
     for(int i=C.size()-1;i>=0;i--) cout<<C[i];
 }
 
-vi add(vi& A,vi& B){ // 高精度加
+// 高精度加
+vi add(vi& A,vi& B){ 
     vi C;
     int t=0; // 进位
     for(int i=0;i<A.size() || i<B.size();i++){ // 加完为止
